@@ -7,7 +7,7 @@ crypto.randomBytes(256, (err, buf) => {
 });
 
 module.exports={
-    uri:'mongodb://localhost:27017/'+ this.db,
+    uri:'mongodb://localhost:27017/mean-ang4',
     secret: crypto,
     db: 'mean-ang4'
 
